@@ -7,9 +7,22 @@ from matplotlib.patches import Ellipse
 
 st.set_page_config(page_title="Simulador Goldman", layout="wide")
 
-st.image("PsicowLab_logo-dscr_preto.png", width=200)  # coloque o nome exato da sua imagem
-st.markdown("### Prof. Dr. Eduardo Luiz Gasnhar Moreira  \nUniversidade Federal de Santa Catarina")
-st.title("🧠 Calculadora Visual de Potencial de Repouso - Equação de Goldman")
+# Logo centralizada, tamanho ajustado
+st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+st.image("PsicowLab_logo-dscr_preto.png", width=260)  # ajuste o nome se for diferente
+
+# Afiliação institucional completa, centralizada
+st.markdown("""
+<div style='text-align: center; font-size:16px'>
+    <strong>Universidade Federal de Santa Catarina</strong><br>
+    Prof. Dr. Eduardo Luiz Gasnhar Moreira<br>
+    Departamento de Ciências Fisiológicas<br>
+    Centro de Ciências Biológicas
+</div>
+""", unsafe_allow_html=True)
+
+# Título centralizado
+st.markdown("<h2 style='text-align: center;'>🧠 Calculadora Visual de Potencial de Repouso - Equação de Goldman</h2>", unsafe_allow_html=True)
 
 st.markdown("""
 Este simulador interativo calcula o **potencial de membrana (Vm)** com base na **Equação de Goldman**, considerando os principais íons:

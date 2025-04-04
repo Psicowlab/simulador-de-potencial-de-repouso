@@ -24,6 +24,8 @@ Universidade Federal de Santa Catarina
 st.markdown("<h2 style='text-align: center;'>🧠 Calculadora Visual de Potencial de Repouso - Equação de Goldman</h2>", unsafe_allow_html=True)
 
 st.markdown("""
+O potencial de repouso da membrana pode ser calculado aplicando-se a equação de Goldman, uma fórmula matemática que leva em consideração a permeabilidade relativa da membrana aos diferentes íons.
+
 Este simulador interativo calcula o **potencial de membrana (Vm)** com base na **Equação de Goldman**, considerando os principais íons:
 - Potássio (K⁺)
 - Sódio (Na⁺)

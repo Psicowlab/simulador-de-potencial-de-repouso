@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
 
 st.set_page_config(page_title="Simulador Goldman", layout="wide")
+
+st.image("PsicowLab_logo-dscr_preto.png", width=200)  # coloque o nome exato da sua imagem
+st.markdown("### Prof. Dr. Eduardo Luiz Gasnhar Moreira  \nUniversidade Federal de Santa Catarina")
 st.title("🧠 Calculadora Visual de Potencial de Repouso - Equação de Goldman")
 
 st.markdown("""

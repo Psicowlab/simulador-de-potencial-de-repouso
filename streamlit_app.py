@@ -7,21 +7,20 @@ from matplotlib.patches import Ellipse
 
 st.set_page_config(page_title="Simulador Goldman", layout="wide")
 
-# Logo centralizada, tamanho ajustado
+# Logo centralizada (somente ela)
 st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-st.image("PsicowLab_logo-dscr_preto.png", width=260)  # ajuste o nome se for diferente
+st.image("PsicowLab_logo-dscr_preto.png", width=260)
+st.markdown("</div>", unsafe_allow_html=True)
 
-# Afiliação institucional completa, centralizada
+# Afiliação alinhada à esquerda
 st.markdown("""
-<div style='text-align: center; font-size:16px'>
-    <strong>Universidade Federal de Santa Catarina</strong><br>
-    Prof. Dr. Eduardo Luiz Gasnhar Moreira<br>
-    Departamento de Ciências Fisiológicas<br>
-    Centro de Ciências Biológicas
-</div>
-""", unsafe_allow_html=True)
+**Prof. Dr. Eduardo Luiz Gasnhar Moreira**  
+Departamento de Ciências Fisiológicas  
+Centro de Ciências Biológicas  
+Universidade Federal de Santa Catarina
+""")
 
-# Título centralizado
+# Título centralizado do app
 st.markdown("<h2 style='text-align: center;'>🧠 Calculadora Visual de Potencial de Repouso - Equação de Goldman</h2>", unsafe_allow_html=True)
 
 st.markdown("""
